@@ -1,0 +1,60 @@
+
+{
+  "name": "File Negative",
+  "description": "Share bot storage post file and can be accessed by special link",
+  "keywords": [
+    "telegram",
+    "file",
+    "sharing"
+  ],
+  "repository": "https://github.com/kenkannih/File-Sharing-Bot",
+  "logo": "https://telegra.ph/file/a112fce4e23d859badcd4.jpg",
+  "env": {
+    "TG_BOT_TOKEN": {
+      "description": "Get Token @Botfather",
+      "value": ""
+    },
+    "OWNER_ID": {
+      "description": "Fill with your id, integer format",
+      "value": ""
+    },
+    "APP_ID": {
+      "description": "Get it on my.telegram.org",
+      "value": ""
+    },
+    "API_HASH": {
+      "description": "Get it on my.telegram.org",
+      "value": ""
+    },
+    "CHANNEL": {
+      "description": "Enter the Name or Username of the channel or group without the @",
+      "required": true,
+      "value": "Channel ID"  
+    },
+    "DISABLE_CHANNEL_BUTTON": {
+      "description": "Isi dengan True atau False",
+      "value": "False"
+    },
+    "CHANNEL_ID": {
+      "description": "Make a channel (database channel), then make the bot as admin in channel, and it's ID",
+      "value": ""
+    },
+    "FORCE_SUB_CHANNEL": {
+      "description": "ID of the channel or group, if you want enable force sub feature else put 0",
+      "value": ""
+    },
+    "CUSTOM_CAPTION": {
+      "description": "Fill it with any free captions",
+      "value": ""
+    },
+    "START_MESSAGE": {
+      "description": "Optional: start message of bot, use HTML parsemode format",
+      "value": "Hello {first}\n\n<b>You need to join in my Channel/Group to use me\n\nKindly Please join Channel</b>"
+    },
+    "ADMINS": {
+      "description": "A space separated list of user_ids of Admins, they can only create links",
+      "value": "",
+      "required": false
+    }
+  }
+}
